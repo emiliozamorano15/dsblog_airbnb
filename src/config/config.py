@@ -1,3 +1,9 @@
+''' configuration settings including path to data files
+    OUTPUT: 
+        parent directory of project
+        path to data files
+'''
+
 from pathlib import Path
 
 project_dir = Path(__file__).resolve().parents[2]

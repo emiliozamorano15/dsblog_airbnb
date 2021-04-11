@@ -10,9 +10,14 @@ Boston's Red Sox vs Seattle's Mariners as told by Airbnb
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
-Hi!
 
-The libraries used to run the code are included in the `requirements.txt` file.
+The libraries used to run the code are:
+- jupyterlab 3.0.12
+- matplotlib 3.4.1
+- numpy 1.19.2
+- pandas 1.2.3
+- scikit-learn 0.21.3
+- seaborn 0.11.1
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -28,22 +33,22 @@ addressed here are:
 ## File Descriptions <a name="files"></a>
 
     ├── LICENSE
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data			   <- Data used in the notebooks.
+    ├── README.md           <- The top-level README for developers using this project.
+    ├── data			    <- Data used in the notebooks.
     │   ├── boston_calendar.csv
     │   ├── boston_listings.csv
     │   ├── seattle_calendar.csv
     │   ├── seattle_listings.csv
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    ├── notebooks           <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    ├── requirements.txt    <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── config         <- Scripts for general project setup
+    ├── src                 <- Source code for use in this project.
+    │   ├── config          <- Scripts for general project setup
     │   │   └── config.py
+    │   ├── data            <- functions for data exploration
+    │   │   └── __init__.py
 
 ## Results<a name="results"></a>
 
